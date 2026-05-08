@@ -36,6 +36,8 @@ gcc & g++ >= 9
 
 TBB >= 2020. Please follow https://github.com/oneapi-src/oneTBB
 
+> I have got a newer version in /usr/local, so I add ${LEGACY_TBB_INCLUDE_DIR} in CMakeLists.txt, so that compiler can find the right ones rather than the headers in /usr/local/include/
+
 :four: **livox_ros_driver**
 
 ```bash
